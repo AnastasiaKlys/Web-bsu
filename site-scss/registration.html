@@ -1,0 +1,69 @@
+<html> 
+<head> 
+<title> Home page </title>
+<link href="registration.css" rel="stylesheet"/>
+
+<meta name="viewport" content="initial-scale=1, width=device-width"/ >
+</head>
+<body>
+	<a href="registration.html" class="butmenu"><img src="img/mn.png" /></a>
+	<div class="menu">
+		<ul id="navbar">
+	      <li><a href="main.html">Главная</a></li>
+	      <li><a href="black.html">Новости</a></li>
+	      <li><a href="route.html">Маршруты</a>
+	        <ul>
+	          <li><a href="#city">Страны</a></li>
+	          <li><a href="#foto">Фотографии</a></li>
+	          <li><a href="error.html">Туры</a></li>
+	        </ul>
+	      </li>
+	      <li><a href="error.html">Акции!</a></li>
+	      <li><a href="registration.html">Регистрация</a></li>
+	    </ul>
+	</div>
+<form action ="registeration.html">
+	<div class="border">
+		<h1>Регистрация</h1>
+		<div class="radio">
+			<p><input type="radio" name="who" value="double" class="radi">Человек</p>
+			<p><input type="radio" name="who" value="double" class="radi">Робот </p>
+	    </div>
+		<div class="identation">
+			<label>Имя</label> 
+			<input type="text" name="text" title="Your name" placeholder= "Алексей">
+		</div>
+		<div class="identation">
+			<label>Фамилия</label>
+			<input type="text" name="text" title="Your surname" placeholder= "Иванов">
+		</div>
+		<div class="identation">
+			<label>Страна</label>
+			<select><p>
+    		<option>Беларусь</option>
+    		<option>Россия</option>
+    	   	</p></select>
+			<input type="text" name="text" title="Your city" placeholder= "Ваш город">
+		</div>
+		<div class="identation">
+			<label>Email</label>
+			<input type="email" name="email" title="xxxxxxxx@email.ru" placeholder= "ivan.ivanov@mail.com">
+		</div>
+    	<div class="checkboxTwo">
+		    <label>Пароль:</label> 
+		    <input type="password" maxlength="25" size="40" name="пароль">
+		</p></div>
+	    <div class="checkboxTwo">
+			<p><input type="checkbox" name="who" value="double"> Я согласен с условиями.
+		</p></div>
+	    <p><button class="button">Зарегистрироваться</button></p>
+	    <div class="fileContainer">
+	    	<div >Нажмите здесь, чтобы запустить файл!</div>
+	    	<input type="file"/>
+	    </div>
+	    <input placeholder="поиск">
+	    </div>
+</form>
+</div>
+</body> 
+</html>

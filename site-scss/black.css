@@ -1,0 +1,122 @@
+body {    
+    background-image: url("img/1.5.jpg");
+    top: 0px; 
+
+}
+h1{
+    font-size: 48px;
+    color: rgb(6, 106, 117);
+    padding: 2px 0 10px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+.date{
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+.border{
+  border: 1px solid rgba(147, 184, 189,0.7);
+  box-shadow:
+      0pt 2px 5px rgba(105, 108, 109,  0.7),
+      0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+  border-radius: 5px;
+  margin: 0 0 35px 0;
+  padding : 4%;
+  background-color: rgba(180,230,237,0.6);
+  width: 88%;
+  padding: 18px 6% 60px 6%;
+}
+
+ 
+
+h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+}
+
+.ogi{
+  
+  width: 33%;
+  
+}
+.og{
+  width: 10%;
+  float: left;
+}
+
+p {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #555555;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+meta{
+ width content:125;
+ height content:111;
+}
+#navbar ul{
+display: none;
+background-color: #5BD29F;
+position: absolute;
+top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#navbar {
+height: 30px;
+background-color:  #1ab188;
+padding-left: 25px;
+min-width: 470px;
+}
+#navbar li {
+float: left;
+position: relative;
+height: 100%;
+}
+#navbar li a {
+display: block;
+padding: 6px;
+width: 100px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #5BD29F; }
+#navbar ul li:hover { background-color: #666; }
+.butmenu img{
+  display: none;
+}
+@media(max-width: 768px){
+  .menu{
+    display: none;
+  }
+
+  .butmenu img{
+  display: inline-block;
+  width: 10%;
+  height:5%;
+  }
+  h1{
+    font-size: 38px;
+  }
+  .ogi {
+    width: 100%;
+  }
+  .og{
+    width: 100%;
+  }
+  h2{
+    width: 100%;
+  }
+}
