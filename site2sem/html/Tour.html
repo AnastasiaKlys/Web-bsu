@@ -1,0 +1,72 @@
+<html> 
+<head> 
+<title>Tour selection</title>
+<link href="../css/form.css" rel="stylesheet"/>
+<meta name="viewport" content="initial-scale=1, width=device-width"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head> 
+<body>
+    <header>
+        <div class="menu" id="menu">
+            <a class="navbar-logo" href="main.html"><img src="../img/sh2m.png"></a>
+            <ul class="topmenu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="countries.html">Сountries</a></li>
+                <li><a href="Tour.html">tours</a>
+                </li>
+                <li><a href="calendar.html">calendar of tours</a></li>
+                <li><a href="contact.html" class="down">About us</a>
+                  <ul class="submenu">
+                    <li><a href="">Contact</a></li>
+                    <li><a href="error.html">tourists</a></li>
+                  </ul>
+                </li>
+            </ul>
+            <div class="iconmenu" onclick="toggleMenu();"><img src="../img/menu.png"></div>
+        </div>
+    </header>
+    <div class="content">
+        <h1>Tour selection</h1>
+        <a href="#menu" class="butup"><img src="../img/up1.png"></a>
+        <hr class="line"/>
+        <div class="column">
+            <h2>Just fill out the form and send us a request. Specialists of our company will select several leisure options for free, taking into account all your wishes and will contact you. If you like the option - we will discuss the details of the tour reservation. When ordering ONLINE you get a discount.</h2>
+        </div>
+        <div class="column">
+            <form action="form.php" method="post">
+                <div class="info">
+                    <input type="text" name="Name" title="Your name" placeholder= "Name*">
+                </div>
+                <div class="info">
+                    <input type="text" name="mail" title="Your mail" placeholder= "Mail*">
+                </div>
+                <div class="info">
+                    <input type="text" name="telephone" title="Your telephone" placeholder= "Telephone*">
+                </div>
+                <div class="message">
+                    <textarea type="text" name="message" title="Your message" placeholder= "Message*"></textarea>
+                </div>
+                <input type="submit" class="but" value= "Select tour">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="about">
+            <div class="contact"><img src="../img/custom-icon-8.png"><a href="mailto:travel.gmail.com"><h4>travel.gmail.com</h4></a></div>
+            <div class="contact"><img src="../img/medical-icon-phone.png"><a href="tel:+375-29 123-45-67"><h4>+375-29 123-45-67</h4></a></div>
+            <div class="contact"><img src="../img/pin-light.png"><a href="contact.html"><h4>Republic of Belarus. 222222, Minsk, Engelsa street, 34</h4></a></div>
+        </div>
+        <hr class="hrf" />
+            <div class="contact1"><a href="main.html"><img src="../img/sh2f.png" class="logof"></a></div>
+            <div class="contact1"><h5>© Copyright 2017. All Rights Reserved.</h5></div>
+            <div class="contact1">
+                <div class="icon">
+                    <a href="https://www.facebook.com/"><img src="../img/facebook.png"></a>
+                    <a href="https://twitter.com/"><img src="../img/twitter.png"></a>
+                    <a href="https://instagram.com/"><img src="../img/instagram.png"></a>
+                </div>
+            </div>
+    </footer>
+    <script src="../js/menu.js"></script>
+</body> 
+</html> 

@@ -1,0 +1,166 @@
+.calendar{
+	position: relative;
+	z-index: 1;
+	border: 1px solid #d8d4d4;
+	width: 100%;
+	margin-bottom: 70px;
+	margin-right: 1%;
+}
+table{
+	border-collapse: collapse;
+	margin: 1%;
+}
+@font-face {
+   font-family: Exo2-Light;
+   src: url(../exo-2/Exo2-Light.otf);
+}
+h3{
+	margin-top: 1%;
+	font-family: Exo2-Light;
+}
+a{
+	margin: 0;
+	text-decoration: none;
+}
+
+td:hover {
+	background-color: #f5f5f5;
+	opacity: 0.9;
+}
+@font-face {
+	font-family: Roboto-Medium;
+    src: url(../Roboto/Roboto-Medium.ttf);
+}
+td{
+	width: 65px;
+	height: 68px;
+	text-align: center;
+	border: 1px solid #d8d4d4;
+	margin: 0;
+	border-spacing: 0;
+	font-family: 'Exo2-Light', sans-serif;
+	color: #464545;
+	font-size: 15px;
+	font-family: Exo2-Light;
+}
+.day{
+	color: #003559;
+	font-size: 19px;
+}
+.past{
+	color: #d8d4d4;
+}
+.nowtd{
+	background-color: #003559;
+}
+.now{
+	color: white;
+}
+.nowtd:hover{
+	background-color: #034e7f;
+}
+.text{
+	position: relative;
+	width: 50%;
+}
+.text h2{
+	position: absolute;
+
+	text-align: center;
+}
+.columnt{
+	width: 47%;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	vertical-align: top;
+	margin-bottom: 40px;
+
+}
+.time{
+	margin-right: auto;
+	margin-left: auto;
+}
+.columnt h2{
+	text-align: center;
+}
+.columnt h3{
+	text-align: center;
+}
+.entryc{
+  padding-top: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 23px;
+  margin-bottom: 30px;
+  background-color: #f2f1f1;
+  color: #555656;
+  font-family: "Roboto-Italic";
+}
+.date{
+	width: 56px;
+	border: 1px solid #003559;
+	border-radius: 3px;
+	color: #003559;
+	vertical-align: middle;
+	padding: 4px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 23px;
+}
+.delim{
+	border-top: 1px solid #d8d4d4;
+	color: #d8d4d4;
+	margin-bottom: 28px;
+	margin-top: 28px;
+
+	text-align: center;
+}
+.tourc img{
+	vertical-align: middle;
+	width: 120px;
+	display: inline-block;
+}
+.tourc h4{
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Exo2-Light;
+	color: black;
+	width: 60%;
+	margin-left: 20px;
+}
+.bread a h4{
+  color: #555656;
+  margin: 0;
+}
+.bread a{
+  display: inline-block;
+}
+.bread h4{
+  margin: 0;
+  display: inline-block;
+  color: #555656;
+}
+.bread{
+  margin-bottom: 20px;
+}
+@media(max-width: 768px){
+  .columnt{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .day{
+  	font-size: 16px;
+  }
+  .tourc img{
+  	width: 100px;
+  }
+
+}
+@media(max-width: 540px){
+
+}
